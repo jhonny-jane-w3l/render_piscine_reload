@@ -6,7 +6,7 @@
 #    By: cw3l <cw3l@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/12 20:36:14 by cw3l              #+#    #+#              #
-#    Updated: 2024/09/25 15:28:04 by cw3l             ###   ########.fr        #
+#    Updated: 2024/09/25 15:58:33 by cw3l             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -31,7 +31,7 @@ NAME=libft.a
 all:  ${NAME}
 
 ${NAME}: ${OBJS}
-	ar rcs ${NAME} srcs/*.o
+	ar rcs ${NAME} ${OBJS}
 
 # remove object files
 clean:
